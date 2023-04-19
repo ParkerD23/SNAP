@@ -1,0 +1,26 @@
+#IDE
+.vscode/
+
+
+# Node & Packages
+node_modules/
+packages/
+
+
+# Build Directories
+bin/
+out/
+target/
+
+# Variables
+.env
+
+# Runtime Files
+.log
+.lock
+.tmp
+
+# OS Files
+Thumbs.db
+.DS_Store
+
