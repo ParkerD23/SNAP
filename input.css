@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Epilogue', Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 18px;
+}

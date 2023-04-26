@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Snap</title>
+</head>
+<body>
+     <!--Navbar-->  
+    <nav class="relative p-6">
+        <!--FLex Container-->
+        <div class="flex items-center justify-between mx-3">
+            <!--Logo-->
+            <div class="pt-2">
+                <img src="images/logo.svg" alt="Brand Logo">
+            </div>
+            <!--Menu Items-->
+            <div class="hidden space-x-6 md:flex ">
+                <a href="#_" class="hover:text-purple">Features</a>
+                <a href="#_" class="hover:text-purple">Company</a>
+                <a href="#_" class="hover:text-purple">About Us</a>
+                <a href="#_" class="hover:text-purple">Community</a>
+            </div>
+            <!--Button-->
+            <a href="#_" class="hidden p-3 px-6 pt-2 text-lightBlack border-2 border-lightBlack rounded-md baseline hover:bg-purple md:block">Get Started</a>
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+            <!--Mobile Menu-->
+            <div class="md:hidden">
+                <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-lightBlack sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#">Features</a>
+                    <a href="#">Company</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+    </nav>
+
+
+     <!--Hero Section -->
+    <section id="hero" class="flex flex-col-reverse md:flex-row">
+        
+         <!--Left Column-->
+            <article class="mb-32 space-y-12 md:w-1/2 mt-8">
+                <h1 class="text-4xl font-bold text-center md:text-5xl md:text-left sm:mt-6">Make remote work</h1>
+                <p class="text-center text-midGray md:text-left xs:px-12">Get your team in sync, no matter your location.  Streamline processes, create team rituals, and watch productivity soar.</p>
+                <!--Button-->
+                <div class="flex justify-center md:justify-start">
+                    <a href="#" class="p-3 px-6 pt-2 text-lightWhite bg-lightBlack rounded-md baseline hover:bg-purple">Learn More</a>
+                </div>
+                <!--Companies-- grid grid-cols-4 gap-1 lg:gap-0.5-->
+                <ul class="flex items-center justify-between mt-10 place-items-start space-x-2 xs:p-12">
+                    <img src="images/client-databiz.svg" alt="Databiz Logo" class="">
+                    <img src="images/client-audiophile.svg" alt="Audiophile Logo" class="">
+                    <img src="images/client-meet.svg" alt="Meet Logo" class="">
+                    <img src="images/client-maker.svg" alt="Meet Maker" class="">
+                </ul>    
+            </article>
+
+         <!--Right Column xl: '1440px'-->
+            <!--Image-->
+            <article>
+                <div class="md:w-1/2">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/image-hero-desktop.png" alt="Person using a laptop">
+                        <img src="images/image-hero-mobile.png" alt="Person using a laptop">
+                    </picture>
+                    
+                </div>
+            </article>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

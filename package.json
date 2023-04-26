@@ -1,0 +1,24 @@
+{
+  "name": "SNAP",
+  "version": "1.0.0",
+  "description": "A landing page with pure html, css and a little JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkerD23/SNAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkerD23/SNAP/issues"
+  },
+  "homepage": "https://github.com/ParkerD23/SNAP#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
